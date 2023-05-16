@@ -1,0 +1,101 @@
+/* Header styles */
+.logo {
+  height: 200px;
+  width: 200px;
+}
+
+
+.main-heading__title {
+  font-size: 48px;
+  font-style: italic;
+  margin: 0;
+}
+
+
+.main-heading__subtitle {
+  font-size: 30px;
+  font-style: italic;
+  margin: 5;
+}
+
+.main-heading__nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-heading__nav-link {
+  text-decoration: none;
+  color: #000;
+  background-color: rgb(180, 180, 180);
+  font-size: 25px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+ 
+  
+}
+
+  /*--Main Styles--*/
+.body {
+background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+      /* add more styles here */
+}
+
+table caption {
+  font-size: 24px;
+  padding: 5px;
+  background-color: #f1f1f1;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.task-table {
+  margin-top: 20px;
+  font-size: 20px;
+  border-collapse: collapse;
+  width: 70%;
+  
+}
+
+.task-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+  padding: 8px;
+}
+
+.task-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.task-table tr:nth-child(even) {
+  background-color: #e7e7e7;
+}
+
+
+
+
+/*footer styles*/
+.footer-text {
+color: black;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: rgb(180, 180, 180);
+color: black;
+text-align: center;
+
+}
+
+.rights {
+/*font-weight: bold;*/
+font-size:20px;
+color: black;
+
+}
+

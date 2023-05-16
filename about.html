@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My To-Do List</title>
-        <link rel="stylesheet" href="/style-i.css" />
+        <link rel="stylesheet" href="Style/about.css">
+
     </head>
     <!-- Header -->
     <header class="main-heading">
@@ -14,11 +15,42 @@
         <h1 class="main-heading__title">My To-Do List</h1>
         <h3 class="main-heading__subtitle">Welcome to to our website</h3>
         <ul class="main-heading__nav">
-            <li><a href="" class="main-heading__nav-link">Home</a></li>
-            <li><a href="" class="main-heading__nav-link">About us</a></li>
+            <li><a href="https://maher-joudeh.github.io/todo-project/index.html" class="main-heading__nav-link">Home</a></li>
+            <li><a href="https://maher-joudeh.github.io/todo-project/about.html" class="main-heading__nav-link">About us</a></li>
         </ul>
     </header>
-<body>
+
+    <main>
+        <section class="info">
+          <img src="assets/myphoto.jpg" alt="My Photo" ><br />
+          <h1>Maher Abdallah Joudeh</h1>
+          <p >Hey there! my name is Maher Abdallah Joudeh I go by (He/Him) Pronouns.<br/>
+             I am currently Stated in Jordan Specifically As-Salt Governate.<br/>
+           I have always had a knack for understanding the inner workings of things around me.<br/>
+           I am currently in my last semester as an Industrial Engineer Major at the University of Jordan.<br/>
+           I created this website as a quick way to keep track of my to do list. <br/>
+           if you have any suggestions or feedbacks feel free to share them with us <br/>
+        </section>
+      
+        <section class="contact">
+          <h2>Contact Us</h2>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+      
+            <button type="submit" class="submit-button">Send Message</button>
+          </form>
+        </section>
+      </main>
+      <p class="message">Thank you for your message. Your feedback is important to us.</p>
+
+<body class="body">
     <!-- Footer -->
     <footer class="footer-text">
             
