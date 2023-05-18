@@ -1,0 +1,151 @@
+/* Header styles */
+.logo {
+    height: 200px;
+    width: 200px;
+  }
+  
+  
+  .main-heading__title {
+    font-size: 48px;
+    font-style: italic;
+    margin: 0;
+  }
+  
+  
+  .main-heading__subtitle {
+    font-size: 30px;
+    font-style: italic;
+    margin: 5;
+  }
+  
+  .main-heading__nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-heading__nav-link {
+    text-decoration: none;
+    color: #000;
+    background-color: rgb(180, 180, 180);
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+   
+    
+  }
+  
+  /*--Main Styles--*/
+  
+  .body {
+  background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+   /* add more styles here */
+  }
+  
+  
+  
+   /*--information styles--*/
+      .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px ;
+      }
+  
+      .info img {
+        width: 200px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+  
+      .info h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+  
+      .info p {
+        font-size: 18px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+  
+  /* form style */
+      .contact {
+        margin: 50px ;
+      }
+  
+      .contact h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+  
+      .contact form {
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .contact label {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+  
+      .contact input {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #ccc;
+      }
+  
+      .contact textarea {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #ccc;
+      }
+  
+  
+      .submit-button {
+        background-color: #008000;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      .message {
+        padding: 5px;
+        text-align: center;
+        font-size: 15px;          
+      
+      }
+      
+  
+      
+  
+  
+  /*footer styles*/
+  .footer-text {
+  color: black;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(180, 180, 180);
+  color: black;
+  text-align: center;
+  
+  }
+  
+  .rights {
+  font-size:20px;
+  color: black;
+  
+  }
+  
+  
+  
